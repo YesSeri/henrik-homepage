@@ -1,0 +1,90 @@
+
+.marked {
+	color: black;
+}
+body {
+	font-family: arial;
+}
+a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: black;
+}
+.navbar{
+	grid-column: 2 / span 2;
+	display: flex;
+	justify-content: space-between;
+	font-size: 2em;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+.grid-container{
+	background-color: #ded;
+	display: grid;
+   	grid-auto-columns: 25% 25% 25% 25% ;
+   	grid-auto-flow: column;
+}
+@media screen and (max-width: 992px) {
+	.navbar{
+		grid-column: 1 / span 1;
+	}
+	.grid-container {
+		grid-auto-columns: 100% ;
+	}
+}
+@media screen and (max-width: 600px) {
+	.nav-item {
+		margin-bottom: 3px;
+	}	
+	.navbar{
+		grid-column: 1 / span 1;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.grid-container {
+		grid-auto-columns: 100% ;
+	}
+}
+.upper-background{
+	background-color: #ded;
+}
+.main-body{
+	max-width: 80%;
+	margin: auto;
+}
+
+.info {
+	max-width: 1200px;
+	text-align: center;
+}
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 2em;
+}
+iframe {
+	display: block;
+	margin: auto;
+}
+h1, h2{
+	text-align: center;
+}
+
+.center-text{
+	text-align: center;
+}
+.justify-text{
+	text-align: justify;
+}
+.center{
+	margin: auto;
+}
