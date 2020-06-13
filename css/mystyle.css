@@ -1,5 +1,4 @@
-
-.marked {
+marked {
 	color: black;
 }
 body {
@@ -26,10 +25,19 @@ a:active {
 	font-family: Arial, Helvetica, sans-serif;	
 }
 .grid-container{
-	background-color: #ded;
+	background-color: #cdc;
 	display: grid;
    	grid-auto-columns: 25% 25% 25% 25% ;
    	grid-auto-flow: column;
+}
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.pic-container {
+	margin: 15px 0px;
 }
 @media screen and (max-width: 992px) {
 	.navbar{
